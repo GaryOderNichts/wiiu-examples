@@ -1,5 +1,7 @@
 .vscode/
 
-*/build/
+build/
 *.elf
 *.rpx
+
+latte-assembler

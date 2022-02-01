@@ -1,0 +1,10 @@
+; $MODE = "UniformRegister"
+
+; $NUM_SPI_PS_INPUT_CNTL = 1
+
+; color input R0
+; $SPI_PS_INPUT_CNTL[0].SEMANTIC = 0
+; $SPI_PS_INPUT_CNTL[0].DEFAULT_VAL = 1
+
+00 EXP_DONE: PIX0, R0
+END_OF_PROGRAM
